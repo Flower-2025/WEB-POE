@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apply — SB Global</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="logo" href="index.html">SB <span class="gold">Global</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="models.html">Models</a>
+        <a href="application.html">Apply</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="apply-hero">
+      <h1>Application</h1>
+      <p>Fill out the form below. Keep answers concise — we’ll reach out if we want to progress your application.</p>
+    </section>
+
+    <section class="apply-form">
+      <form id="applicationForm" novalidate>
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label>Full Name <input type="text" name="full_name" required></label>
+          <label>Email <input type="email" name="email" required></label>
+          <label>Phone <input type="tel" name="phone" required></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label>Age <input type="number" name="age" min="13" max="100" required></label>
+          <label>Gender
+            <select name="gender" required>
+              <option value="">Select</option>
+              <option>Female</option>
+              <option>Male</option>
+              <option>Non-binary</option>
+            </select>
+          </label>
+          <label>Height (cm) <input type="number" name="height" required></label>
+          <label>Shoe size <input type="text" name="shoe_size"></label>
+          <label>Waist size (cm) <input type="text" name="waist"></label>
+          <label>Hair color <input type="text" name="hair_color"></label>
+          <label>Eye color <input type="text" name="eye_color"></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Motivation & Photo</legend>
+          <label>Why do you want to become a model? <textarea name="motivation" rows="4" required></textarea></label>
+          <label>Upload Photo (jpg/png, max 5MB) <input id="photoInput" type="file" name="photo" accept="image/*" required></label>
+        </fieldset>
+
+        <button class="btn primary" type="submit">Submit Application</button>
+      </form>
+    </section>
+
+    <!-- Inline success popup placeholder (added by JS) -->
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>SB Global</h4>
+        <p>Black & Gold. Modern modeling agency.</p>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <div class="socials">
+          <a href="#" aria-label="Instagram" class="gold-icon">Instagram</a>
+          <a href="#" aria-label="Facebook" class="gold-icon">Facebook</a>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright">© <span id="year4"></span> SB Global — All rights reserved.</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
