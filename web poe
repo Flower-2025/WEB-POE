@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home — SB Global</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="logo" href="index.html">SB <span class="gold">Global</span></a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="models.html">Models</a>
+        <a href="application.html">Apply</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <h1 class="hero-title">Be Bold. Be Gold. Be Proud.</h1>
+        <p class="hero-sub">We discover and launch the next generation of models — glossy, modern, and fearless.</p>
+        <a class="btn primary" href="application.html">Apply Now</a>
+      </div>
+    </section>
+
+    <section class="intro container">
+      <h2>Our Promise</h2>
+      <p>We give aspiring models real opportunities with professional guidance, portfolios, and global exposure. We celebrate uniqueness and polish talent.</p>
+    </section>
+
+    <section class="cta container">
+      <div class="card">
+        <h3>Featured Portfolio</h3>
+        <p>Explore our model galleries and see the work that sets us apart.</p>
+        <a class="btn" href="models.html">View Models</a>
+      </div>
+      <div class="card">
+        <h3>Want to join?</h3>
+        <p>Simple application, quick review — we’ll be in touch.</p>
+        <a class="btn primary" href="application.html">Apply</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>SB Global</h4>
+        <p>Black & Gold. Modern modeling agency.</p>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <div class="socials">
+          <a href="#" aria-label="Instagram" class="gold-icon">Instagram</a>
+          <a href="#" aria-label="Facebook" class="gold-icon">Facebook</a>
+        </div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="about.html">About</a>
+        <a href="models.html">Models</a>
+        <a href="application.html">Apply</a>
+      </div>
+    </div>
+    <div class="container copyright">© <span id="year"></span> SB Global — All rights reserved.</div>
+  </footer>
+
+</body>
+</html>
+
+
+
